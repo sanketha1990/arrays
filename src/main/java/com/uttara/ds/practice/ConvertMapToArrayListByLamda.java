@@ -17,7 +17,7 @@ public class ConvertMapToArrayListByLamda {
         hashMap.put("6","Sanketh");
         hashMap.put("7","Sanketh");
 
-        Predicate
+
         ArrayList<String> keyList=hashMap.keySet().stream().collect(Collectors.toCollection(ArrayList::new));
 
         ArrayList<String> valueList=hashMap.values().stream().collect(Collectors.toCollection(ArrayList::new));
